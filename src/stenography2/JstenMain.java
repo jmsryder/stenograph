@@ -136,7 +136,7 @@ public class JstenMain {
    		   	  		  
 				String secret_file_length = "";
 
-				for (int jcount = 0; jcount < 20; jcount +=1) {	    
+				for (int jcount = 0; jcount < 10; jcount +=1) {	    
 					secret_file_length += (char)Integer.parseInt(Integer.toBinaryString(new_secret_file_bytes_prep[jcount]), 2);			
 				}
     		   
