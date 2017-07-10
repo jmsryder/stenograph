@@ -110,7 +110,7 @@ public class JstenMain {
 				System.out.println("Coded image saved as 'image_encoded.BMP', in the directory: " +  output_path);   				   				
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
-				System.out.println("problem writing image");
+				System.out.println("problem writing the image");
 				e.printStackTrace();
     			}    	     	
     	     	
